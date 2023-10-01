@@ -2,7 +2,7 @@
 
 > Developed an English website for Atawich Restaurant using html, css, and js.
 >
-> This is first my project
+> This is my first project
 
 ## [Live Demo](http://atawich-sinasroosh.freehost.io/)
 
