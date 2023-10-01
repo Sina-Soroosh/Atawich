@@ -1,0 +1,71 @@
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.branche {
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 150px;
+    box-shadow: 2px 2px 5px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.branche .head {
+    background: #be0b29;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+}
+
+.branche .head img {
+    width: 20%;
+}
+
+.branche .head span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 2px;
+}
+
+.branche .main {
+    margin-top: 15px;
+    display: block;
+}
+
+.branche .main li {
+    margin-left: 25px;
+    list-style-type: disc;
+}
+
+@media screen and (min-width: 500px) {
+    .branche {
+        width: 48%;
+        display: inline-block;
+    }
+
+    .branche .main li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .branche {
+        width: 32%;
+    }
+
+    .branche .main li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .branche {
+        width: 24%;
+    }
+}

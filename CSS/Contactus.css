@@ -1,0 +1,130 @@
+.details {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px 0 45px 0;
+}
+
+.backgurnd {
+    background: url(../Img/back2.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+.details h1 {
+    margin: 15px;
+}
+
+.details p {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.details p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.form {
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+}
+
+.form form {
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px #757575;
+}
+
+form label {
+    margin: 20px 0 10px 0;
+    display: block;
+}
+
+form label span {
+    color: #be0b29;
+}
+
+form input {
+    border: 1px solid #000;
+    width: 100%;
+    display: block;
+    padding: 7px;
+    margin-top: 0px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-left: 2px solid #be0b29 !important;
+    border-bottom: 2px solid #be0b29 !important;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    min-width: 150px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    max-height: 100px;
+    min-height: 60px;
+}
+
+form button {
+    width: 100%;
+    padding: 5px;
+    background-color: #be0b29;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.swal2-modal,
+.swal2-toast {
+    background-color: #be0b29 !important;
+    color: #fff !important;
+}
+
+.swal2-error {
+    border-color: #fff !important;
+}
+
+.swal2-x-mark-line-left,
+.swal2-x-mark-line-right {
+    background-color: #fff !important;
+
+}
+
+@media screen and (min-width: 450px) {
+    form div {
+        display: inline-block;
+        width: 49%;
+    }
+
+    form button {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .backgurnd {
+        background-attachment: fixed;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/aos.css">
+    <link rel="stylesheet" href="CSS/forAll.css">
+    <link rel="stylesheet" href="CSS/onlineOrder.css">
+    <link rel="shortcut icon" href="Img/WebsiteLogo.png" type="image/png">
+    <title>Online order</title>
+</head>
+
+<body>
+    <div id="branchPopupWrapper">
+    </div>
+    <div id="menu">
+        <div id="close-menu">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="onlineOrder.html" class="select">
+                <li>Online order</li>
+            </a>
+            <a href="Support.html">
+                <li>Support</li>
+            </a>
+            <a href="branches.html">
+                <li>Address of branches</li>
+            </a>
+            <a href="Contactus.html">
+                <li>Contact us</li>
+            </a>
+            <a href="weblog.html">
+                <li>Weblog</li>
+            </a>
+        </ul>
+    </div>
+    <header data-aos="fade-down">
+        <div class="header-container">
+            <div class="layout-login-wraper">
+                <i class="fas fa-user"></i>
+                <div>
+                    <div id="open-loginRegister"><a> Membership </a><span>Sign in</span></div>
+                </div>
+            </div>
+            <div id="menu-header">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="onlineOrder.html" class="select">
+                        <li>Online order</li>
+                    </a>
+                    <a href="Support.html">
+                        <li>Support</li>
+                    </a>
+                    <a href="branches.html">
+                        <li>Address of branches</li>
+                    </a>
+                    <a href="Contactus.html">
+                        <li>Contact us</li>
+                    </a>
+                    <a href="weblog.html">
+                        <li>Weblog</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="layout-logo">
+                <img src="Img/WebsiteLogo.png" alt="">
+            </div>
+            <div id="logo-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="Ordertype">
+            <h3>Please select the type of order first:</h3>
+            <div class="btns-Ordertype">
+                <div class="btn  inBranchApproach">
+                    <img src="Img/خرید از شعبه.jpg" alt="">
+                    <h4>I go to the branch and get the food!</h4>
+                </div>
+                <div class="btn deliveryApproach">
+                    <img src="Img/سفارش انلاین.jpg" alt="">
+                    <h4>Sending by motor courier</h4>
+                </div>
+            </div>
+        </div>
+        <div class="Branchs">
+            <h3>Choose the branch you want:</h3>
+            <div class="btns-Branch">
+            </div>
+            <button>Confirmation</button>
+            <div class="back"><i class="fas fa-arrow-left"></i></div>
+        </div>
+    </main>
+    <script src="JS/fontawesome.js"></script>
+    <script src="JS/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="JS/sweetalert2.js"></script>
+    <script src="JS/forAll.js"></script>
+    <script src="JS/onlineOrder.js" type="module"></script>
+</body>
+</html>

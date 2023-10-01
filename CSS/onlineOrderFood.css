@@ -1,0 +1,282 @@
+.menu-food {
+    white-space: nowrap;
+    overflow: auto;
+    text-align: center;
+}
+
+.list-food {
+    width: 100px;
+    margin-right: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-block;
+    color: #000;
+}
+
+.list-food img {
+    width: 100%;
+}
+
+
+.foods {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foods .list-foods {
+    width: 90%;
+    margin: auto;
+}
+
+.food {
+    position: relative;
+    text-align: left;
+    border: 1px solid #be0b29;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px 5px;
+}
+
+.food img {
+    width: 20%;
+    height: 90%;
+}
+
+.food h3 {
+    display: inline;
+    top: 15px;
+    position: absolute;
+    margin-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 70%;
+}
+
+.food p {
+    display: inline;
+    position: absolute;
+    margin-left: 10px;
+    top: 40px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.food .price {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+.food .btn {
+    position: absolute;
+    display: inline;
+    bottom: 15px;
+    margin-left: 10px;
+}
+
+.btn div {
+    display: inline-flex;
+    padding: 2px;
+    background: #be0b29;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main {
+    background-color: #3e3e3e;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.addToCart {
+    background-color: #be0b29;
+    border-color: #fff;
+    box-shadow: 0px 0px 11px 0px #be0b29;
+}
+
+.end-shop {
+    width: 200px;
+    text-align: center;
+    background: #be0b29;
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+    position: sticky;
+    bottom: 15px;
+}
+
+.swal2-confirm {
+    background-color: #fed700 !important;
+    color: #000 !important;
+    transition: 0.3s !important;
+}
+
+.swal2-confirm:hover {
+    background-color: #ffb411 !important;
+    color: #fff !important;
+}
+
+.swal2-cancel {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.swal2-modal,
+.swal2-toast {
+    background-color: #be0b29 !important;
+    color: #fff !important;
+}
+
+.swal2-error {
+    border-color: #fff !important;
+}
+
+.swal2-x-mark-line-left,
+.swal2-x-mark-line-right {
+    background-color: #fff !important;
+
+}
+
+.end-shop p {
+    position: relative;
+}
+
+.end-shop p span {
+    position: absolute;
+    top: -7px;
+    left: 73px;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    color: #be0b29;
+    border: 1px solid #3e3e3e;
+}
+
+.cart {
+    width: 100%;
+    max-width: 350px;
+    position: fixed;
+    top: 0;
+    color: #fff;
+    height: 100%;
+    background-color: #f7f3eb;
+    z-index: 9999999999;
+    left: -100%;
+}
+
+.cart .head {
+    background-color: #be0b29;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cart .head i {
+    font-size: 20px;
+}
+
+.cart .head .fa-xmark {
+    padding: 0;
+    background-color: #cfcfcf;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart .head .fa-xmark:hover {
+    background-color: #be0b29;
+    color: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+#pageCover {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: .65;
+    cursor: pointer;
+    display: none;
+}
+
+.food-cart {
+    width: 90%;
+    margin: 10px auto;
+    color: #000;
+    border: 1px solid #be0b29a8;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.food-cart .price {
+    color: #339933;
+    margin-top: 10px;
+}
+
+.food-cart .btn {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.food-cart .btn i {
+    color: #fff;
+}
+
+.sum {
+    color: #000;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.sum p span {
+    float: right;
+}
+
+.cart button {
+    width: 90%;
+    margin: auto;
+    display: block;
+    background-color: #be0b29;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cart .main .error {
+    margin: 50px 10px;
+    text-align: center;
+    color: #000;
+}
+
+@media screen and (min-width: 768px) {
+
+    .menu-food {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .food {
+        width: 48%;
+        display: inline-block;
+    }
+}

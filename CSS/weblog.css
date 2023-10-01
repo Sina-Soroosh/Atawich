@@ -1,0 +1,86 @@
+.weblogs {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.news {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #757575;
+}
+
+.news img {
+    width: 100%;
+}
+
+.news .text {
+    text-align: center;
+    padding: 10px;
+}
+
+.news .text a {
+    color: #000;
+}
+
+.news .text h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.news .text p {
+    height: 70px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.news .btn button {
+    width: 200px;
+    margin: 5px auto;
+    display: block;
+    padding: 5px;
+    background: #be0b29;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dynamicPaginationLink {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sel {
+    background-color: #ffb411 !important;
+}
+
+@media screen and (min-width: 450px) {
+    .news {
+        width: 45%;
+        margin-right: 3%;
+        display: inline-block;
+    }
+
+    .news .btn button {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .news {
+        width: 31%;
+        margin-right: 1%
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .weblogs {
+        width: 70%;
+        margin: 40px auto;
+    }
+}
