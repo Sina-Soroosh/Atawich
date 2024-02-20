@@ -4,7 +4,7 @@
 >
 > This is my first project
 
-## [Live Demo](http://atawich-sinasroosh.freehost.io/)
+## [Live Demo](https://atawich-sinasoroosh.freehost.io/)
 
 ## Built With
 
