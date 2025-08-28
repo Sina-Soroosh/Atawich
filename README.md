@@ -4,7 +4,7 @@
 >
 > This is my first project
 
-## [Live Demo](https://atawich-sinasoroosh.freehost.io/)
+## [Live Demo](https://atawich.vercel.app/)
 
 ## Built With
 
